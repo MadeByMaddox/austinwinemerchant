@@ -1,0 +1,7 @@
+:root { --burgundy: #6B1428; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #0E0B0C; }
+a:hover { opacity: 0.78; }
+button:hover { opacity: 0.85; }
+a:focus-visible, button:focus-visible { outline: 2px solid #C9A96E; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
